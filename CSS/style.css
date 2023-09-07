@@ -1,0 +1,36 @@
+/* common css start */
+*{
+    margin:0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+}
+/* common css end */
+
+nav{
+    background-color:#02918c ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    font-size: 12px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding:  26px 25.5px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 800;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #cfc91d;
+}
